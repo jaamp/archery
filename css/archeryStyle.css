@@ -143,7 +143,7 @@ nav {
 }
 
 footer {
-    background-image: url(images/footerimage.jpg);
+    background-image: url(/images/footerImage.jpg);
     color: #ffffff;
     padding: 20px;
 }
