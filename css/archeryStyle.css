@@ -142,8 +142,8 @@ nav {
     grid-column: 4;
 }
 
-footer {
-    background-image: url(/images/footerImage.jpg);
+.footer-area {
+    background-color: #1b4d7f;
     color: #ffffff;
     padding: 20px;
 }
