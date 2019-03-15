@@ -68,10 +68,11 @@ nav {
 
 .nav-ul li {
     display: inline;
+
 }
 
     .nav-ul li ~ li {
-        padding-left: 4px;
+        padding-left: 50px;
     }
 
 .main-container {
@@ -211,4 +212,23 @@ nav {
     grid-row: 7;
     margin-top: 0;
     margin-left: 5%;
+}
+
+.hidden {
+    position: relative;
+    left: -10000px;
+    top: auto;
+}
+
+.hidden:focus {
+    left: 0px;
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
